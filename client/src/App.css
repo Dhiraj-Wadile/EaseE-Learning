@@ -1,0 +1,492 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+button{
+  cursor: pointer;
+}
+
+/* Login and Signup Page styling */
+
+.center {
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: stretch;
+    flex-direction: column;
+    margin-top: 100px;
+    padding: 30px 45px;
+    box-shadow: 0 0 6px grey;
+}
+
+.center h1 {
+  padding-bottom: 15px;
+  color: black;
+  text-align: center;
+}
+
+.center i {
+  padding-bottom: 15px;
+  font-size: 40px;
+}
+
+.center input {
+  margin: 10px 10px;
+  padding: 10px;
+  border-radius: 10px;
+  width: 300px;
+  font-size: 14px;
+}
+
+.center button {
+  padding: 10px;
+  font-size: 14px;
+  margin-left: 110px;
+  margin-bottom: 10px;
+  border-color: #0082e6;
+  ;
+  background-color: white;
+  border-radius: 10px;
+  width: 100px;
+}
+
+.center button:hover {
+  background-color: #0082e6;
+  color: white;
+}
+
+.center p {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.logout-btn {
+  background-color: #f44336;
+  /* Red background color */
+  border: none;
+  /* No border */
+  color: white;
+  /* White text color */
+  padding: 0.4vw 0.8vw;
+  text-align: center;
+  /* Center text */
+  text-decoration: none;
+  /* No underline */
+  display: inline-block;
+  /* Display as inline-block */
+  font-size: 16px;
+  /* Font size */
+  cursor: pointer;
+  /* Change cursor to pointer on hover */
+  margin-right: 0.5vw;
+  border-radius: 5px;
+}
+
+/* Hover state */
+.logout-btn:hover {
+  background-color: #da190b;
+}
+
+
+/* HOME PAGE STYLING */
+
+
+/* NAVBAR STYLE */
+nav {
+  background: #0082e6;
+  height: 80px;
+  width: 100%;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+label.logo {
+  color: white;
+  font-size: 35px;
+  line-height: 80px;
+  padding: 0 100px;
+  font-weight: bold;
+}
+
+nav ul {
+  float: right;
+  margin-right: 20px;
+}
+
+nav ul li {
+  display: inline;
+  line-height: 80px;
+  margin: 0 8px;
+}
+
+nav ul li a {
+  color: white;
+  font-size: 17px;
+  padding: 7px 13px;
+  border-radius: 3px;
+}
+
+a.active,
+a:hover {
+  background: #1b9bff;
+  transition: .5s;
+}
+
+.checkbtn {
+  font-size: 30px;
+  color: white;
+  float: right;
+  line-height: 80px;
+  margin-right: 40px;
+  cursor: pointer;
+  display: none;
+}
+
+#check {
+  display: none;
+}
+
+
+/* Heading styling */
+
+.headings {
+  text-align: center;
+}
+
+.headings h1 {
+  font-size: 80px;
+  line-height: 1em;
+  letter-spacing: -3px;
+}
+
+.headings p {
+  padding-top: 70px;
+  font-size: 30px;
+  line-height: 1.32em;
+  font-weight: 700;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.headings button {
+  width: 300px;
+  height: 40px;
+  background: #0082e6;
+  border: none;
+  color: white;
+  font-weight: bold;
+  border-radius: 3px;
+  margin-bottom: 150px;
+}
+
+.logoStyle{
+  margin: 30px 20px;
+  /* height: 100px; */
+  height: 30vh;
+  width: 30vh;
+  margin-left: 350px !important;
+}
+
+
+/* Course Category */
+
+h1 {
+  text-align: center;
+  font-size: 40px;
+  color: #0082e6;
+}
+
+.hr {
+  border: 2px solid #0082e6;
+  width: 320px;
+}
+
+.category {
+  display: flex;
+  /* align-items: center; */
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-bottom: 100px;
+  margin-left: 100px;
+  margin-right: 100px;
+  background: #f5f5f5;
+}
+
+.category-content {
+  margin-top: 100px;
+  width: 350px;
+}
+
+.category-content img {
+  width: 350px;
+  border-radius: 10px;
+}
+
+.category-content p {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 22px;
+}
+
+.category-content button {
+  width: 130px;
+  height: 40px;
+  background: #0082e6;
+  border: none;
+  color: white;
+  font-weight: bold;
+  border-radius: 3px;
+}
+
+/* TESTIMONIALS */
+.testimonials {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-bottom: 70px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.test-data {
+  margin-top: 100px;
+  width: 350px;
+  margin-bottom: 100px;
+  color: white;
+  border: 1px solid white;
+  padding: 20px;
+  border-radius: 10px;
+  /* text-align: center; */
+  text-align: justify;
+}
+
+.test-data:hover {
+  background: white;
+  color: #0082e6;
+}
+
+
+/* Footer */
+/* FOOTER */
+.footer {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.icons {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: baseline;
+
+}
+
+.icons i {
+  font-size: 30px;
+  margin-bottom: 20px;
+  margin-right: 30px;
+}
+
+.icons a {
+  text-decoration: none;
+  color: white;
+}
+
+.footer-content {
+  margin-top: 50px;
+  width: 450px;
+  margin-bottom: 50px;
+  color: white;
+}
+
+.footer-content p {
+  text-align: justify;
+}
+
+/* RESPONSIVE NAVBAR */
+
+@media (max-width: 952px) {
+  label.logo {
+    font-size: 30px;
+    padding-left: 50px;
+  }
+
+  nav ul li a {
+    font-size: 16px;
+  }
+
+  .slideshow {
+    height: 500px;
+    width: 100%;
+    margin-bottom: 100px;
+  }
+}
+
+@media (max-width: 858px) {
+  .checkbtn {
+    display: block;
+  }
+
+  ul {
+    position: fixed;
+    width: 100%;
+    height: 55vh;
+    background: #2c3e50;
+    top: -100%;
+    left: 0%;
+    text-align: center;
+    transition: all .5s;
+
+  }
+
+  nav ul li {
+    display: block;
+    margin: 50px 0;
+    line-height: 20px;
+  }
+
+  nav ul li a {
+    font-size: 20px;
+  }
+
+  a:hover,
+  a.active {
+    background: none;
+    color: lightgreen;
+  }
+
+  #check:checked~ul {
+    top: 80px;
+  }
+
+  .slideshow {
+    margin-top: 50vh;
+    height: 500px;
+    width: 100%;
+  }
+
+  .category {
+    margin-top: 100px;
+  }
+}
+
+/* ///////////////////////////////// COURSEYT STYLING/////////////////////////////////  */
+
+iframe {
+  width: 90%;
+  height: 400px;
+}
+
+.main {
+  display: flex;
+  width: 100%;
+}
+
+.right {
+  width: 60%;
+  border-radius: 10px;
+  margin: 10px;
+  box-shadow: 0 0 7px 0px #aaa;
+}
+
+.left {
+  box-shadow: 0 0 7px 0px #aaa;
+  width: 40%;
+  padding: 1rem;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.left ul {
+  list-style: none;
+}
+
+.modulie{
+  margin-top: 50px;
+}
+
+.left ul li {
+  margin-top: 15px;
+  height: 40px;
+  cursor: pointer;
+}
+
+.left ul li:hover {
+  color: #0082e6;
+}
+
+.videoHr {
+  border: 0;
+  height: 10px;
+  background: #000;
+  opacity: 0.1;
+}
+
+.videos {
+  margin: 5%;
+}
+
+.instructor {
+  display: flex;
+  width: 100%;
+  margin: 5%;
+}
+
+.instructor-img {
+  margin-left: 100px;
+  border-radius: 50%;
+  height: 80%;
+  width: 50%;
+}
+
+.instructor-info {
+  width: 40%;
+}
+
+.fa-youtube-play{
+  color: red;
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+/* Admin Panel CSS */
+
+#admin-panel button{
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  background-color: darkblue;
+  color: #fff;
+  border: none;
+}
+
+#admin-panel{
+  margin-top: 50px;
+}
+
+#verify {
+  display: flex;
+  padding-right: 50px;
+  align-items: center;
+}
